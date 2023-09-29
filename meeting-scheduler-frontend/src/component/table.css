@@ -1,0 +1,42 @@
+/* table.css */
+
+/* Add borders and background colors */
+
+.table-title {
+  text-align: center;
+  margin-top: 20px; /* Adjust the spacing as needed */
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Add a background color to header cells */
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Alternate row colors */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Increase cell padding */
+  th, td {
+    padding: 12px;
+  }
+  
+  /* Highlight selected rows with a different background color */
+  tr.selected {
+    background-color: #42e01b; /* Adjust the color as needed */
+  }
+  
